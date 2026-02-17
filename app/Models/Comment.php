@@ -9,7 +9,7 @@ class Comment extends Model
 {
     use HasUuids;
 
-    protected $table = "posts";
+    protected $table = "comments";
     protected $keyType = "string";
     public $incrementing = false;
 
