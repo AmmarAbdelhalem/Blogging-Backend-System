@@ -22,4 +22,8 @@ class Post extends Model
     protected $gurded = [
         'author_id'
     ];
+
+    public function user() {
+        return $this->belongsTo(User::class);
+    }
 }
