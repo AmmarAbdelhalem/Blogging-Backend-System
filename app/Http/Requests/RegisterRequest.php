@@ -18,10 +18,10 @@ class RegisterRequest extends FormRequest
     public function messages(): array
     {
         return [
-            "name.required" => "name should be provided",
+            "name.required" => "name should be given",
             "name.string" => "name should be string",
             "name.max" => "name should be less than 255",
-            "name.unique" => "name is already taken",
+            "name.unique" => "name already taken",
 
             'email.required' => 'email should be given',
             'email.email' => 'email should be a valid email address',
